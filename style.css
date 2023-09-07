@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.carousel-container {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 802px;
+  height: 600px;
+  overflow: hidden;
+}
+.carousel-slide {
+  display: flex;
+}
+.carousel-slide .imgEl {
+  min-width: 800px;
+  height: 600px;
+  object-fit: fill;
+}
+
+.prevBtn {
+  position: relative;
+}
+.nextBtn {
+  position: relative;
+}
+
+#prevBtn .bi-rewind-btn {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 5rem;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+}
+#nextBtn .bi-fast-forward-btn {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 5rem;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+}
